@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>About</title>
+   <meta name="author" content="Quyen Nguyen" />
+   <!--MyFonts Font-->
+	<link rel="stylesheet" type="text/css" href="../css/MyFontsWebfontsKit.css">
+   <!--Default StyleSheet-->
+   <link rel="stylesheet" href="../css/style.css" media="screen" />
+   <link rel="stylesheet" href="../css/pygments.css" media="screen" />
+   <link rel="stylesheet" href="../css/960_12_col.css" media="screen" />
+   <!--javaScript-->
+   <!-- Ajax -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+   <script src="../script/script.js" type="text/javascript"></script>
+   <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+   <!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-24962170-1']);
+	  _gaq.push(['_setDomainName', 'quyennguyen.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+   <script>
+   
+//	http://doswa.com/2011/07/20/mathjax-in-markdown.html to display math script correctly. Latex format
+	MathJax.Hub.Config({
+	    tex2jax: {
+	        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+	    }
+	});
+	MathJax.Hub.Queue(function() {
+	    // Fix <code> tags after MathJax finishes running. This is a
+	    // hack to overcome a shortcoming of Markdown. Discussion at
+	    // https://github.com/mojombo/jekyll/issues/199
+	    var all = MathJax.Hub.getAllJax(), i;
+	    for(i = 0; i < all.length; i += 1) {
+	        all[i].SourceElement().parentNode.className += ' has-jax';
+	    }
+	});
+   </script>
+</head>
+<body class="container_12" id="site_body">	
+<div class="grid_9 push_2" id="site_nav">
+	<div id="site_name" class="grid_1 alpha"><a href="/">QN</a></div>
+	<ul class="grid_8 omega" id="site_menu">
+	    <li><a target="_blank" href="mailto:ma65p2004@gmail.com?Subject=Message from blog">Email</a></li>
+	    <li><a href="/about.html">About</a></li>
+	    <li><a href="/">Home</a></li>
+	 </ul>
+</div>
+	  
+<div class="clear"></div>
+<div class="grid_9 push_2" style="font-weight: 300">
+
+<h2>About Me</h2>
+<div class="date" style="margin-bottom:40px"></div>
+<p>This is the personal blog of Quyen Nguyen. He's a chemical engineer, graduated from the University of Texas at Austin. He was born in Vietnam, came to the States during his teenage years, and currently working and living in Houston, TX area in the oil and gas industry. With interest in graphic design and web development, he made this site during his free time. He reluctantly admits that it was a lot of fun. Lastly, he does not address himself in third person in real life.</p>
+
+<p>This site was developed from super light <a href="https://github.com/mojombo/jekyll">Jekyll</a> blog engine, hosted on <a href="http://pages.github.com/">Github Pages</a>. Posts are written originally in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Math equations were written in LaTeX and rendered by <a href="http://www.mathjax.org/">MathJax</a>. Right click on those equations for some cool stuff.</p>
+
+<p>On the graphic design side, this site designed using the <a href="http://960.gs/">960 Grid System</a> and the wonderful, free <a href="http://www.myfonts.com/fonts/exljbris/museo/">Museo</a> font</p>
+
+</div>
+
+
+
+<div id="end-sign" class="grid_9 push_2">
+    <div class="grid_2 alpha" style="text-align:left" >
+	 <!-- If it is page, then look for page number -->
+		 &#8195;
+  		
+	
+	
+	</div>
+	<div class="grid_1 push_2" style="text-align:center" ><a href="#top" title="Go to Top of page">&uarr;</a></div>
+    <div class="grid_2 push_4" style="text-align:right" >
+	
+		 &#8195;
+	  	
+	
+	</div>
+
+</div>
+
+</body>
+</html>
